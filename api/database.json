@@ -1,0 +1,55 @@
+{
+  "clowns": [
+    {
+      "id": 1,
+      "name": "Mike"
+    },
+    {
+      "id": 2,
+      "name": "Leslie"
+    }
+  ],
+  "completions": [
+    {
+      "requestId": "2",
+      "clownId": "2",
+      "dateCreated": "Thu Aug 25 2022",
+      "id": 1
+    },
+    {
+      "requestId": "3",
+      "clownId": "1",
+      "dateCreated": "Fri Aug 26 2022",
+      "id": 2
+    }
+  ],
+  "requests": [
+    {
+      "id": 1,
+      "parent": "Brad",
+      "child": "Billy",
+      "childAttendees": 17,
+      "address": "123 Risk Way",
+      "date": "October 3, 2022",
+      "hours": 4
+    },
+    {
+      "parent": "Ed",
+      "child": "Eddie",
+      "childAttendees": "17",
+      "address": "123 Howling Way",
+      "date": "2022-09-23",
+      "hours": "7",
+      "id": 2
+    },
+    {
+      "parent": "Vick",
+      "child": "Victor",
+      "childAttendees": "18",
+      "address": "67 Wolf Street",
+      "date": "2022-08-17",
+      "hours": "9",
+      "id": 3
+    }
+  ]
+}
